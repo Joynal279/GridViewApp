@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F200EE4928D334F700352C79 /* GridViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F200EE4828D334F700352C79 /* GridViewAppApp.swift */; };
-		F200EE4B28D334F700352C79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F200EE4A28D334F700352C79 /* ContentView.swift */; };
+		F200EE4928D334F700352C79 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F200EE4828D334F700352C79 /* AppEntry.swift */; };
+		F200EE4B28D334F700352C79 /* StartTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F200EE4A28D334F700352C79 /* StartTab.swift */; };
 		F200EE4D28D334F800352C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F200EE4C28D334F800352C79 /* Assets.xcassets */; };
 		F200EE5028D334F800352C79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F200EE4F28D334F800352C79 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F200EE4528D334F700352C79 /* GridViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F200EE4828D334F700352C79 /* GridViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewAppApp.swift; sourceTree = "<group>"; };
-		F200EE4A28D334F700352C79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F200EE4828D334F700352C79 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		F200EE4A28D334F700352C79 /* StartTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTab.swift; sourceTree = "<group>"; };
 		F200EE4C28D334F800352C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F200EE4F28D334F800352C79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		F200EE4728D334F700352C79 /* GridViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				F200EE4828D334F700352C79 /* GridViewAppApp.swift */,
-				F200EE4A28D334F700352C79 /* ContentView.swift */,
+				F200EE4828D334F700352C79 /* AppEntry.swift */,
+				F200EE4A28D334F700352C79 /* StartTab.swift */,
 				F200EE4C28D334F800352C79 /* Assets.xcassets */,
 				F200EE4E28D334F800352C79 /* Preview Content */,
 			);
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F200EE4B28D334F700352C79 /* ContentView.swift in Sources */,
-				F200EE4928D334F700352C79 /* GridViewAppApp.swift in Sources */,
+				F200EE4B28D334F700352C79 /* StartTab.swift in Sources */,
+				F200EE4928D334F700352C79 /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
